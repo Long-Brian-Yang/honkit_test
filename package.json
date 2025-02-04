@@ -16,5 +16,11 @@
     "url": "https://github.com/Long-Brian-Yang/honkit_test/issues"
   },
   "homepage": "https://github.com/Long-Brian-Yang/honkit_test#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d _book"
+  }
 }
