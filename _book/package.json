@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d _book"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,7 @@
   "homepage": "https://github.com/Long-Brian-Yang/honkit_test#readme",
   "description": "",
   "devDependencies": {
-    "gh-pages": "^6.3.0"
-  },
-  "scripts": {
-    "deploy": "gh-pages -d _book"
+    "gh-pages": "^6.3.0",
+    "honkit": "^3.6.6"
   }
 }
